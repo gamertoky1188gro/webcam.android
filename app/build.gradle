@@ -1,0 +1,78 @@
+plugins {
+    alias(libs.plugins.android.application)
+    //noinspection NewerVersionAvailable
+    id 'org.jetbrains.kotlin.android' version '2.2.10'
+    id("com.chaquo.python")
+}
+
+android {
+    namespace 'cyber.code.master.webcam'
+    compileSdk 35
+
+    buildFeatures{
+        buildConfig true
+    }
+
+    defaultConfig {
+        applicationId "cyber.code.master.webcam"
+        minSdk 34
+        targetSdk 34
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        ndk {
+            // On Apple silicon, you can omit x86_64.
+            abiFilters "arm64-v8a", "x86_64"
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_11
+        targetCompatibility JavaVersion.VERSION_11
+    }
+    flavorDimensions "pyVersion"
+    productFlavors {
+        create("py313") { dimension = "pyVersion" }
+        create("py311") { dimension = "pyVersion" }
+    }
+}
+
+chaquopy {
+    productFlavors {
+        getByName("py313") { version = "3.13" }
+        getByName("py311") { version = "3.11" }
+    }
+    defaultConfig {
+        pip {
+            install("numpy==1.26.2")
+            install("websockets")
+            install("adb-shell")
+            install "adb-shell[usb]"
+            options("--default-timeout=6000")
+        }
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation libs.appcompat
+    implementation libs.material
+    implementation libs.bcprov.jdk15to18
+    implementation libs.bcpkix.jdk15to18
+    implementation libs.activity
+    implementation libs.libadb.android.v310
+    implementation libs.constraintlayout
+    implementation project(':OpenCV')
+    implementation libs.play.services.maps
+    testImplementation libs.junit
+    implementation libs.conscrypt.android
+    androidTestImplementation libs.ext.junit
+    androidTestImplementation libs.espresso.core
+}

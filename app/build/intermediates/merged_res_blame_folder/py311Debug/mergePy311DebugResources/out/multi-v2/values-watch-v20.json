@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "cyber.code.master.webcam.app-mergePy311DebugResources-36:/values-watch-v20/values-watch-v20.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Cyber Code Master\\.gradle\\caches\\8.13\\transforms\\486825710d469d9f7f0e92ff828601d4\\transformed\\appcompat-1.7.1\\res\\values-watch-v20\\values-watch-v20.xml",
+                    "from": {
+                        "startLines": "2,5,8",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,214,385",
+                        "endLines": "4,7,10",
+                        "endColumns": "12,12,12",
+                        "endOffsets": "209,380,553"
+                    }
+                }
+            ]
+        }
+    ]
+}

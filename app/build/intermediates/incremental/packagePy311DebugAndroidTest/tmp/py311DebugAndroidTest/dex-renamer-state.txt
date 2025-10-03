@@ -1,0 +1,10 @@
+#Mon Sep 29 14:25:01 BDT 2025
+base.0=C\:\\Users\\Cyber Code Master\\AndroidStudioProjects\\Webcam\\app\\build\\intermediates\\dex\\py311DebugAndroidTest\\mergeExtDexPy311DebugAndroidTest\\classes.dex
+base.1=C\:\\Users\\Cyber Code Master\\AndroidStudioProjects\\Webcam\\app\\build\\intermediates\\dex\\py311DebugAndroidTest\\mergeProjectDexPy311DebugAndroidTest\\0\\classes.dex
+base.2=C\:\\Users\\Cyber Code Master\\AndroidStudioProjects\\Webcam\\app\\build\\intermediates\\dex\\py311DebugAndroidTest\\mergeProjectDexPy311DebugAndroidTest\\12\\classes.dex
+path.0=classes.dex
+path.1=0/classes.dex
+path.2=12/classes.dex
+renamed.0=classes.dex
+renamed.1=classes2.dex
+renamed.2=classes3.dex

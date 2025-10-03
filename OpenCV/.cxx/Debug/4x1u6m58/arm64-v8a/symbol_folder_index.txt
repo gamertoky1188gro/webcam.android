@@ -1,0 +1,1 @@
+C:\Users\Cyber Code Master\AndroidStudioProjects\Webcam\OpenCV\build\intermediates\cxx\Debug\4x1u6m58\obj\arm64-v8a

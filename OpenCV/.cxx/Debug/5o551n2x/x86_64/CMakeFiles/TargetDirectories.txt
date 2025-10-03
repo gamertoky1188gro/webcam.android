@@ -1,0 +1,3 @@
+C:/Users/Cyber Code Master/AndroidStudioProjects/Webcam/OpenCV/.cxx/Debug/5o551n2x/x86_64/CMakeFiles/opencv_jni_shared.dir
+C:/Users/Cyber Code Master/AndroidStudioProjects/Webcam/OpenCV/.cxx/Debug/5o551n2x/x86_64/CMakeFiles/edit_cache.dir
+C:/Users/Cyber Code Master/AndroidStudioProjects/Webcam/OpenCV/.cxx/Debug/5o551n2x/x86_64/CMakeFiles/rebuild_cache.dir

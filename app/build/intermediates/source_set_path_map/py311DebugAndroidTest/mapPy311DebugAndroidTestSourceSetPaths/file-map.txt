@@ -1,0 +1,6 @@
+cyber.code.master.webcam.test.app-core-1.7.0-0 C:\Users\Cyber Code Master\.gradle\caches\8.13\transforms\52738498dbb6d31bb333eb0397a5217e\transformed\core-1.7.0\res
+cyber.code.master.webcam.test.app-py311-1 C:\Users\Cyber Code Master\AndroidStudioProjects\Webcam\app\build\generated\res\resValues\androidTest\py311\debug
+cyber.code.master.webcam.test.app-updated_navigation_xml-2 C:\Users\Cyber Code Master\AndroidStudioProjects\Webcam\app\build\generated\updated_navigation_xml\py311DebugAndroidTest
+cyber.code.master.webcam.test.app-mergePy311DebugAndroidTestResources-3 C:\Users\Cyber Code Master\AndroidStudioProjects\Webcam\app\build\intermediates\incremental\py311DebugAndroidTest\mergePy311DebugAndroidTestResources\merged.dir
+cyber.code.master.webcam.test.app-mergePy311DebugAndroidTestResources-4 C:\Users\Cyber Code Master\AndroidStudioProjects\Webcam\app\build\intermediates\incremental\py311DebugAndroidTest\mergePy311DebugAndroidTestResources\stripped.dir
+cyber.code.master.webcam.test.app-py311DebugAndroidTest-5 C:\Users\Cyber Code Master\AndroidStudioProjects\Webcam\app\build\intermediates\merged_res\py311DebugAndroidTest\mergePy311DebugAndroidTestResources

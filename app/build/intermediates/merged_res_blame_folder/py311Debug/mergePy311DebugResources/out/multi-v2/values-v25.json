@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "cyber.code.master.webcam.app-mergePy311DebugResources-36:/values-v25/values-v25.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Cyber Code Master\\.gradle\\caches\\8.13\\transforms\\486825710d469d9f7f0e92ff828601d4\\transformed\\appcompat-1.7.1\\res\\values-v25\\values-v25.xml",
+                    "from": {
+                        "startLines": "2,3,4,6",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,126,209,308",
+                        "endLines": "2,3,5,7",
+                        "endColumns": "70,82,12,12",
+                        "endOffsets": "121,204,303,414"
+                    }
+                }
+            ]
+        }
+    ]
+}

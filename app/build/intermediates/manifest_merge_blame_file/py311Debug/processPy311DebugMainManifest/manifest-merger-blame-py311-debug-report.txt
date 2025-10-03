@@ -1,0 +1,179 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="cyber.code.master.webcam"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="34"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+11-->C:\Users\Cyber Code Master\AndroidStudioProjects\Webcam\app\src\main\AndroidManifest.xml:5:5-79
+11-->C:\Users\Cyber Code Master\AndroidStudioProjects\Webcam\app\src\main\AndroidManifest.xml:5:22-76
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->[com.google.android.gms:play-services-maps:19.2.0] C:\Users\Cyber Code Master\.gradle\caches\8.13\transforms\6fb82beb51b0f91f42bab16d82280aad\transformed\play-services-maps-19.2.0\AndroidManifest.xml:21:5-66
+12-->[com.google.android.gms:play-services-maps:19.2.0] C:\Users\Cyber Code Master\.gradle\caches\8.13\transforms\6fb82beb51b0f91f42bab16d82280aad\transformed\play-services-maps-19.2.0\AndroidManifest.xml:21:22-64
+13
+14    <uses-feature
+14-->[com.google.android.gms:play-services-maps:19.2.0] C:\Users\Cyber Code Master\.gradle\caches\8.13\transforms\6fb82beb51b0f91f42bab16d82280aad\transformed\play-services-maps-19.2.0\AndroidManifest.xml:22:5-24:33
+15        android:glEsVersion="0x00020000"
+15-->[com.google.android.gms:play-services-maps:19.2.0] C:\Users\Cyber Code Master\.gradle\caches\8.13\transforms\6fb82beb51b0f91f42bab16d82280aad\transformed\play-services-maps-19.2.0\AndroidManifest.xml:23:8-40
+16        android:required="true" />
+16-->[com.google.android.gms:play-services-maps:19.2.0] C:\Users\Cyber Code Master\.gradle\caches\8.13\transforms\6fb82beb51b0f91f42bab16d82280aad\transformed\play-services-maps-19.2.0\AndroidManifest.xml:24:8-31
+17
+18    <queries>
+18-->[com.google.android.gms:play-services-maps:19.2.0] C:\Users\Cyber Code Master\.gradle\caches\8.13\transforms\6fb82beb51b0f91f42bab16d82280aad\transformed\play-services-maps-19.2.0\AndroidManifest.xml:27:5-30:15
+19
+20        <!-- Needs to be explicitly declared on Android R+ -->
+21        <package android:name="com.google.android.apps.maps" />
+21-->[com.google.android.gms:play-services-maps:19.2.0] C:\Users\Cyber Code Master\.gradle\caches\8.13\transforms\6fb82beb51b0f91f42bab16d82280aad\transformed\play-services-maps-19.2.0\AndroidManifest.xml:29:7-61
+21-->[com.google.android.gms:play-services-maps:19.2.0] C:\Users\Cyber Code Master\.gradle\caches\8.13\transforms\6fb82beb51b0f91f42bab16d82280aad\transformed\play-services-maps-19.2.0\AndroidManifest.xml:29:16-59
+22    </queries>
+23
+24    <permission
+24-->[androidx.core:core:1.13.0] C:\Users\Cyber Code Master\.gradle\caches\8.13\transforms\3f8959f49112e3a064300417aa13190a\transformed\core-1.13.0\AndroidManifest.xml:22:5-24:47
+25        android:name="cyber.code.master.webcam.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+25-->[androidx.core:core:1.13.0] C:\Users\Cyber Code Master\.gradle\caches\8.13\transforms\3f8959f49112e3a064300417aa13190a\transformed\core-1.13.0\AndroidManifest.xml:23:9-81
+26        android:protectionLevel="signature" />
+26-->[androidx.core:core:1.13.0] C:\Users\Cyber Code Master\.gradle\caches\8.13\transforms\3f8959f49112e3a064300417aa13190a\transformed\core-1.13.0\AndroidManifest.xml:24:9-44
+27
+28    <uses-permission android:name="cyber.code.master.webcam.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+28-->[androidx.core:core:1.13.0] C:\Users\Cyber Code Master\.gradle\caches\8.13\transforms\3f8959f49112e3a064300417aa13190a\transformed\core-1.13.0\AndroidManifest.xml:26:5-97
+28-->[androidx.core:core:1.13.0] C:\Users\Cyber Code Master\.gradle\caches\8.13\transforms\3f8959f49112e3a064300417aa13190a\transformed\core-1.13.0\AndroidManifest.xml:26:22-94
+29    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+30    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+31    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+32
+33    <application
+33-->C:\Users\Cyber Code Master\AndroidStudioProjects\Webcam\app\src\main\AndroidManifest.xml:6:5-26:19
+34        android:allowBackup="true"
+34-->C:\Users\Cyber Code Master\AndroidStudioProjects\Webcam\app\src\main\AndroidManifest.xml:7:9-35
+35        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+35-->[androidx.core:core:1.13.0] C:\Users\Cyber Code Master\.gradle\caches\8.13\transforms\3f8959f49112e3a064300417aa13190a\transformed\core-1.13.0\AndroidManifest.xml:28:18-86
+36        android:dataExtractionRules="@xml/data_extraction_rules"
+36-->C:\Users\Cyber Code Master\AndroidStudioProjects\Webcam\app\src\main\AndroidManifest.xml:8:9-65
+37        android:debuggable="true"
+37-->C:\Users\Cyber Code Master\AndroidStudioProjects\Webcam\app\src\main\AndroidManifest.xml:11:9-34
+38        android:extractNativeLibs="false"
+39        android:fullBackupContent="@xml/backup_rules"
+39-->C:\Users\Cyber Code Master\AndroidStudioProjects\Webcam\app\src\main\AndroidManifest.xml:9:9-54
+40        android:icon="@mipmap/ic_launcher"
+40-->C:\Users\Cyber Code Master\AndroidStudioProjects\Webcam\app\src\main\AndroidManifest.xml:10:9-43
+41        android:label="@string/app_name"
+41-->C:\Users\Cyber Code Master\AndroidStudioProjects\Webcam\app\src\main\AndroidManifest.xml:12:9-41
+42        android:roundIcon="@mipmap/ic_launcher_round"
+42-->C:\Users\Cyber Code Master\AndroidStudioProjects\Webcam\app\src\main\AndroidManifest.xml:13:9-54
+43        android:supportsRtl="true"
+43-->C:\Users\Cyber Code Master\AndroidStudioProjects\Webcam\app\src\main\AndroidManifest.xml:14:9-35
+44        android:theme="@style/Theme.Webcam" >
+44-->C:\Users\Cyber Code Master\AndroidStudioProjects\Webcam\app\src\main\AndroidManifest.xml:15:9-44
+45        <activity
+45-->C:\Users\Cyber Code Master\AndroidStudioProjects\Webcam\app\src\main\AndroidManifest.xml:17:9-25:20
+46            android:name="cyber.code.master.webcam.MainActivity"
+46-->C:\Users\Cyber Code Master\AndroidStudioProjects\Webcam\app\src\main\AndroidManifest.xml:18:13-41
+47            android:exported="true" >
+47-->C:\Users\Cyber Code Master\AndroidStudioProjects\Webcam\app\src\main\AndroidManifest.xml:19:13-36
+48            <intent-filter>
+48-->C:\Users\Cyber Code Master\AndroidStudioProjects\Webcam\app\src\main\AndroidManifest.xml:20:13-24:29
+49                <action android:name="android.intent.action.MAIN" />
+49-->C:\Users\Cyber Code Master\AndroidStudioProjects\Webcam\app\src\main\AndroidManifest.xml:21:17-69
+49-->C:\Users\Cyber Code Master\AndroidStudioProjects\Webcam\app\src\main\AndroidManifest.xml:21:25-66
+50
+51                <category android:name="android.intent.category.LAUNCHER" />
+51-->C:\Users\Cyber Code Master\AndroidStudioProjects\Webcam\app\src\main\AndroidManifest.xml:23:17-77
+51-->C:\Users\Cyber Code Master\AndroidStudioProjects\Webcam\app\src\main\AndroidManifest.xml:23:27-74
+52            </intent-filter>
+53        </activity>
+54        <!-- Needs to be explicitly declared on P+ -->
+55        <uses-library
+55-->[com.google.android.gms:play-services-maps:19.2.0] C:\Users\Cyber Code Master\.gradle\caches\8.13\transforms\6fb82beb51b0f91f42bab16d82280aad\transformed\play-services-maps-19.2.0\AndroidManifest.xml:33:7-86
+56            android:name="org.apache.http.legacy"
+56-->[com.google.android.gms:play-services-maps:19.2.0] C:\Users\Cyber Code Master\.gradle\caches\8.13\transforms\6fb82beb51b0f91f42bab16d82280aad\transformed\play-services-maps-19.2.0\AndroidManifest.xml:33:21-58
+57            android:required="false" />
+57-->[com.google.android.gms:play-services-maps:19.2.0] C:\Users\Cyber Code Master\.gradle\caches\8.13\transforms\6fb82beb51b0f91f42bab16d82280aad\transformed\play-services-maps-19.2.0\AndroidManifest.xml:33:59-83
+58
+59        <activity
+59-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\Cyber Code Master\.gradle\caches\8.13\transforms\5161d55b68bbb4b633e174cc3c16bb4d\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:9-173
+60            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+60-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\Cyber Code Master\.gradle\caches\8.13\transforms\5161d55b68bbb4b633e174cc3c16bb4d\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:19-85
+61            android:exported="false"
+61-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\Cyber Code Master\.gradle\caches\8.13\transforms\5161d55b68bbb4b633e174cc3c16bb4d\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:146-170
+62            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+62-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\Cyber Code Master\.gradle\caches\8.13\transforms\5161d55b68bbb4b633e174cc3c16bb4d\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:86-145
+63
+64        <meta-data
+64-->[com.google.android.gms:play-services-basement:18.4.0] C:\Users\Cyber Code Master\.gradle\caches\8.13\transforms\1822e17cfa6824ccbd059490a4888634\transformed\play-services-basement-18.4.0\AndroidManifest.xml:6:9-122
+65            android:name="com.google.android.gms.version"
+65-->[com.google.android.gms:play-services-basement:18.4.0] C:\Users\Cyber Code Master\.gradle\caches\8.13\transforms\1822e17cfa6824ccbd059490a4888634\transformed\play-services-basement-18.4.0\AndroidManifest.xml:6:20-65
+66            android:value="@integer/google_play_services_version" />
+66-->[com.google.android.gms:play-services-basement:18.4.0] C:\Users\Cyber Code Master\.gradle\caches\8.13\transforms\1822e17cfa6824ccbd059490a4888634\transformed\play-services-basement-18.4.0\AndroidManifest.xml:6:66-119
+67
+68        <provider
+68-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Cyber Code Master\.gradle\caches\8.13\transforms\e3fbe2f299db249ad450ba03618a3b46\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+69            android:name="androidx.startup.InitializationProvider"
+69-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Cyber Code Master\.gradle\caches\8.13\transforms\e3fbe2f299db249ad450ba03618a3b46\transformed\emoji2-1.3.0\AndroidManifest.xml:25:13-67
+70            android:authorities="cyber.code.master.webcam.androidx-startup"
+70-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Cyber Code Master\.gradle\caches\8.13\transforms\e3fbe2f299db249ad450ba03618a3b46\transformed\emoji2-1.3.0\AndroidManifest.xml:26:13-68
+71            android:exported="false" >
+71-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Cyber Code Master\.gradle\caches\8.13\transforms\e3fbe2f299db249ad450ba03618a3b46\transformed\emoji2-1.3.0\AndroidManifest.xml:27:13-37
+72            <meta-data
+72-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Cyber Code Master\.gradle\caches\8.13\transforms\e3fbe2f299db249ad450ba03618a3b46\transformed\emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+73                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+73-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Cyber Code Master\.gradle\caches\8.13\transforms\e3fbe2f299db249ad450ba03618a3b46\transformed\emoji2-1.3.0\AndroidManifest.xml:30:17-75
+74                android:value="androidx.startup" />
+74-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Cyber Code Master\.gradle\caches\8.13\transforms\e3fbe2f299db249ad450ba03618a3b46\transformed\emoji2-1.3.0\AndroidManifest.xml:31:17-49
+75            <meta-data
+75-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Cyber Code Master\.gradle\caches\8.13\transforms\515f061a7a3da8504b8ff6c4cb733b7c\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:29:13-31:52
+76                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+76-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Cyber Code Master\.gradle\caches\8.13\transforms\515f061a7a3da8504b8ff6c4cb733b7c\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
+77                android:value="androidx.startup" />
+77-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Cyber Code Master\.gradle\caches\8.13\transforms\515f061a7a3da8504b8ff6c4cb733b7c\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
+78            <meta-data
+78-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Cyber Code Master\.gradle\caches\8.13\transforms\d7d65008e767a094d5452978efb663bd\transformed\profileinstaller-1.4.0\AndroidManifest.xml:29:13-31:52
+79                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+79-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Cyber Code Master\.gradle\caches\8.13\transforms\d7d65008e767a094d5452978efb663bd\transformed\profileinstaller-1.4.0\AndroidManifest.xml:30:17-85
+80                android:value="androidx.startup" />
+80-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Cyber Code Master\.gradle\caches\8.13\transforms\d7d65008e767a094d5452978efb663bd\transformed\profileinstaller-1.4.0\AndroidManifest.xml:31:17-49
+81        </provider>
+82
+83        <receiver
+83-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Cyber Code Master\.gradle\caches\8.13\transforms\d7d65008e767a094d5452978efb663bd\transformed\profileinstaller-1.4.0\AndroidManifest.xml:34:9-52:20
+84            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+84-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Cyber Code Master\.gradle\caches\8.13\transforms\d7d65008e767a094d5452978efb663bd\transformed\profileinstaller-1.4.0\AndroidManifest.xml:35:13-76
+85            android:directBootAware="false"
+85-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Cyber Code Master\.gradle\caches\8.13\transforms\d7d65008e767a094d5452978efb663bd\transformed\profileinstaller-1.4.0\AndroidManifest.xml:36:13-44
+86            android:enabled="true"
+86-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Cyber Code Master\.gradle\caches\8.13\transforms\d7d65008e767a094d5452978efb663bd\transformed\profileinstaller-1.4.0\AndroidManifest.xml:37:13-35
+87            android:exported="true"
+87-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Cyber Code Master\.gradle\caches\8.13\transforms\d7d65008e767a094d5452978efb663bd\transformed\profileinstaller-1.4.0\AndroidManifest.xml:38:13-36
+88            android:permission="android.permission.DUMP" >
+88-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Cyber Code Master\.gradle\caches\8.13\transforms\d7d65008e767a094d5452978efb663bd\transformed\profileinstaller-1.4.0\AndroidManifest.xml:39:13-57
+89            <intent-filter>
+89-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Cyber Code Master\.gradle\caches\8.13\transforms\d7d65008e767a094d5452978efb663bd\transformed\profileinstaller-1.4.0\AndroidManifest.xml:40:13-42:29
+90                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+90-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Cyber Code Master\.gradle\caches\8.13\transforms\d7d65008e767a094d5452978efb663bd\transformed\profileinstaller-1.4.0\AndroidManifest.xml:41:17-91
+90-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Cyber Code Master\.gradle\caches\8.13\transforms\d7d65008e767a094d5452978efb663bd\transformed\profileinstaller-1.4.0\AndroidManifest.xml:41:25-88
+91            </intent-filter>
+92            <intent-filter>
+92-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Cyber Code Master\.gradle\caches\8.13\transforms\d7d65008e767a094d5452978efb663bd\transformed\profileinstaller-1.4.0\AndroidManifest.xml:43:13-45:29
+93                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+93-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Cyber Code Master\.gradle\caches\8.13\transforms\d7d65008e767a094d5452978efb663bd\transformed\profileinstaller-1.4.0\AndroidManifest.xml:44:17-85
+93-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Cyber Code Master\.gradle\caches\8.13\transforms\d7d65008e767a094d5452978efb663bd\transformed\profileinstaller-1.4.0\AndroidManifest.xml:44:25-82
+94            </intent-filter>
+95            <intent-filter>
+95-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Cyber Code Master\.gradle\caches\8.13\transforms\d7d65008e767a094d5452978efb663bd\transformed\profileinstaller-1.4.0\AndroidManifest.xml:46:13-48:29
+96                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+96-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Cyber Code Master\.gradle\caches\8.13\transforms\d7d65008e767a094d5452978efb663bd\transformed\profileinstaller-1.4.0\AndroidManifest.xml:47:17-88
+96-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Cyber Code Master\.gradle\caches\8.13\transforms\d7d65008e767a094d5452978efb663bd\transformed\profileinstaller-1.4.0\AndroidManifest.xml:47:25-85
+97            </intent-filter>
+98            <intent-filter>
+98-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Cyber Code Master\.gradle\caches\8.13\transforms\d7d65008e767a094d5452978efb663bd\transformed\profileinstaller-1.4.0\AndroidManifest.xml:49:13-51:29
+99                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+99-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Cyber Code Master\.gradle\caches\8.13\transforms\d7d65008e767a094d5452978efb663bd\transformed\profileinstaller-1.4.0\AndroidManifest.xml:50:17-95
+99-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Cyber Code Master\.gradle\caches\8.13\transforms\d7d65008e767a094d5452978efb663bd\transformed\profileinstaller-1.4.0\AndroidManifest.xml:50:25-92
+100            </intent-filter>
+101        </receiver>
+102    </application>
+103
+104</manifest>
